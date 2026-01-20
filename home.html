@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ira's World - Welcome</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="home.html">🏠 Home</a></li>
+            <li><a href="projects.html">🚀 Projects</a></li>
+            <li><a href="about.html">👤 About</a></li>
+            <li><a href="feedback.html">💬 Feedback</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section class="hero">
+            <h1>Welcome to Ira's World 🌍</h1>
+            <p>Innovating · Building · Creating</p>
+            <img src="profile.jpg" alt="Ira's Profile Picture" class="profile-pic">
+            <p style="margin-top: 2rem; color: var(--text-secondary); font-size: 1.1rem;">
+                A full-stack developer passionate about creating impactful solutions through innovative technology
+            </p>
+        </section>
+
+        <section>
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>🍕 Campus Cravings</h3>
+                    <p>Food delivery for students by students. A mobile app that connects hungry students with student deliverers on campus.</p>
+                    <div class="project-links">
+                        <a href="projects.html#campus-cravings" class="btn">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>💰 Coin Coach</h3>
+                    <p>An educational crypto learning platform with interactive simulations and AI guidance for safe crypto investing.</p>
+                    <div class="project-links">
+                        <a href="projects.html#coin-coach" class="btn">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>🎮 Campus Run</h3>
+                    <p>A 2D Java game built with agile methodologies, featuring sprite animation, collision detection, and robust testing.</p>
+                    <div class="project-links">
+                        <a href="projects.html#campus-run" class="btn">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>🎵 Road Rhythm</h3>
+                    <p>A Bluetooth-enabled car stereo system with music-responsive LED lighting and real-time sensor data display.</p>
+                    <div class="project-links">
+                        <a href="projects.html#road-rhythm" class="btn">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>🛒 Cart Quest</h3>
+                    <p>A gamified grocery shopping experience where players explore a virtual store and build recipes from different cuisines.</p>
+                    <div class="project-links">
+                        <a href="projects.html#cart-quest" class="btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <h3>Let's Connect!</h3>
+            <p>Explore my projects, share feedback, or get in touch. I'm always open to collaboration!</p>
+            <div class="contact-links">
+                <a href="about.html">About Me</a>
+                <a href="projects.html">All Projects</a>
+                <a href="feedback.html">Send Feedback</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Ira Batra. All rights reserved. | <a href="feedback.html">Share Your Thoughts</a></p>
+    </footer>
+
+    <div class="game-corner" onclick="playSound()">🎮</div>
+
+    <script>
+        function playSound() {
+            // Simple interaction - can be enhanced with actual sound
+            const gameCorner = document.querySelector('.game-corner');
+            gameCorner.style.animation = 'none';
+            setTimeout(() => {
+                gameCorner.style.animation = 'bounce 0.6s ease-in-out infinite';
+            }, 10);
+            alert('🎮 Welcome to Ira\'s World! Explore my projects and learn about my work!');
+        }
+    </script>
+</body>
+</html>
