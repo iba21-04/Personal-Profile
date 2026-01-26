@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ira Batra - Computer Engineering Student</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">✨</span>
+                <span class="logo-text">Ira Batra</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="glitch" data-text="">Welcome to Ira's World</h1>
+                <p class="tagline">Computer Engineering Student <br>
+                    Simon Fraser University
+                </p>
+                <p class="subtitle">Innovating · Building · Creating</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">
+                        Get In Touch
+                    </button>
+                    <button class="btn btn-secondary" onclick="document.getElementById('projects').scrollIntoView({behavior: 'smooth'})">
+                        View My Work
+                    </button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="profile-container">
+                    <div class="profile-glow"></div>
+                    <img src="profile.jpeg" alt="Ira's Profile" class="profile-pic">
+                </div>
+            </div>
+        </div>
+        <div class="floating-particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-header">
+            <h2>About Me</h2>
+            <div class="header-line"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <p class="about-intro">
+                    Hi! I'm a third-year Computer Engineering student at Simon Fraser University with a passion for building innovative solutions through technology. I love blending hardware and software to create experiences that matter.
+                </p>
+                <p>
+                    My journey spans full-stack development, embedded systems, robotics, and digital hardware design. I'm driven by curiosity, collaboration, and the belief that great engineering comes from understanding both the big picture and the tiny details. When I'm not coding or building circuits, you'll find me contributing to the Women in Engineering community or exploring new tech trends.
+                </p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">C/C++</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Kotlin</span>
+                        <span class="skill-tag">VHDL</span>
+                        <span class="skill-tag">RISC-V</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Web & Mobile</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Android</span>
+                        <span class="skill-tag">Firebase</span>
+                        <span class="skill-tag">Leaflet API</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Hardware & Embedded</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">BeagleYAI</span>
+                        <span class="skill-tag">FPGA</span>
+                        <span class="skill-tag">Embedded C</span>
+                        <span class="skill-tag">HAL</span>
+                        <span class="skill-tag">MATLAB</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Frameworks</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Maven</span>
+                        <span class="skill-tag">Eclipse IDE</span>
+                        <span class="skill-tag">SolidWorks</span>
+                        <span class="skill-tag">Android Studio</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="section-header">
+            <h2>Work Experience</h2>
+            <div class="header-line"></div>
+        </div>
+        <div class="experience-timeline">
+            <div class="timeline-item" data-year="2025">
+                <div class="timeline-dot"></div>
+                <div class="experience-card">
+                    <div class="card-header">
+                        <h3>Software Developer</h3>
+                        <p class="company">SFU Robot Soccer</p>
+                        <span class="date">Nov 2025 – Present</span>
+                    </div>
+                    <p class="location">Burnaby, BC</p>
+                    <ul class="highlights">
+                        <li>Contributed to autonomous robotics software in C++, working on path planning and motion control</li>
+                        <li>Real-time system synchronization across planning, control, and GUI modules</li>
+                        <li>Collaborated through Git workflows with AI-focused development</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item" data-year="2025">
+                <div class="timeline-dot"></div>
+                <div class="experience-card">
+                    <div class="card-header">
+                        <h3>Electromechanical Testing Engineer</h3>
+                        <p class="company">Algo Communications</p>
+                        <span class="date">Jan 2025 – April 2025</span>
+                    </div>
+                    <p class="location">Burnaby, BC</p>
+                    <ul class="highlights">
+                        <li>Programmed and configured firmware on 100+ production PCBs</li>
+                        <li>Diagnosed and recovered 20+ locked PCBs, reduced rework by 30%</li>
+                        <li>Firmware validation and diagnostics via UART interfaces and Linux terminals</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item" data-year="2024">
+                <div class="timeline-dot"></div>
+                <div class="experience-card">
+                    <div class="card-header">
+                        <h3>Math Instructor</h3>
+                        <p class="company">Mathnasium</p>
+                        <span class="date">Oct 2024 – Feb 2025</span>
+                    </div>
+                    <p class="location">Surrey, BC</p>
+                    <ul class="highlights">
+                        <li>Taught math clearly and engagingly to help students understand material</li>
+                        <li>Encouraged supportive learning environment</li>
+                        <li>Collaborated to enhance teaching strategies and improve outcomes</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item" data-year="2022">
+                <div class="timeline-dot"></div>
+                <div class="experience-card">
+                    <div class="card-header">
+                        <h3>Barista</h3>
+                        <p class="company">Starbucks Coffee Company</p>
+                        <span class="date">Jun 2022 – Sep 2022</span>
+                    </div>
+                    <p class="location">Langley, BC</p>
+                    <ul class="highlights">
+                        <li>Ensured prompt and efficient customer service</li>
+                        <li>Excelled in multitasking in high-pressure environments</li>
+                        <li>Developed strong communication and attention to detail</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="section-header">
+            <h2>Featured Projects</h2>
+            <div class="header-line"></div>
+        </div>
+        <div class="projects-grid">
+              <div class="project-card">
+                <div class="project-header">
+                    <span class="project-icon">🍕</span>
+                    <h3>Campus Cravings – Android Mobile App</h3>
+                </div>
+                <p class="project-date">Oct 2025</p>
+                <p class="project-description">
+                    Developed an Android app during Hackathon enabling student food delivery. Built UI in Android Studio with Material Design, integrated Firebase Realtime Database, and Leaflet API for tracking.
+                </p>
+                <div class="tech-stack">
+                    <span>Kotlin</span>
+                    <span>Android Studio</span>
+                    <span>Firebase</span>
+                    <span>Leaflet API</span>
+                </div>
+            </div>
+             <div class="project-card">
+                <div class="project-header">
+                    <span class="project-icon">🎵</span>
+                    <h3>Road Rhythm – Car Stereo System</h3>
+                </div>
+                <p class="project-date">Sept 2025 – Dec 2025</p>
+                <p class="project-description">
+                    Built a Bluetooth-enabled car stereo system on BeagleYAI with music-responsive LED lighting. Integrated accelerometer, temperature sensor, magnetometer, and real-time data display on 16×2 LCD.
+                </p>
+                <div class="tech-stack">
+                    <span>C</span>
+                    <span>BeagleYAI</span>
+                    <span>Bluetooth</span>
+                    <span>Embedded Systems</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-icon">🤖</span>
+                    <h3>Cycle-Accurate RISC-V CPU Pipeline Simulator</h3>
+                </div>
+                <p class="project-date">May 2025 – Aug 2025</p>
+                <p class="project-description">
+                    Engineered a cycle-accurate 5-stage RISC-V pipeline in C featuring instruction fetch, decode, execute, memory, and write-back stages. Resolved structural, data, and control hazards with forwarding and stall logic.
+                </p>
+                <div class="tech-stack">
+                    <span>C</span>
+                    <span>RISC-V</span>
+                    <span>CPU Architecture</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-icon">💰</span>
+                    <h3>CoinCoach – Crypto Learning Platform</h3>
+                </div>
+                <p class="project-date">Recent Project</p>
+                <p class="project-description">
+                    Built an interactive crypto education web platform with Next.js, React, and Tailwind CSS using a modern dark mode UI. Developed simulation tools with realistic market trends and integrated AI guidance using Gemini API for concept explanation and safe decision-making support.
+                </p>
+                <div class="tech-stack">
+                    <span>Next.js</span>
+                    <span>React</span>
+                    <span>Tailwind CSS</span>
+                    <span>Gemini API</span>
+                    <span>Market Simulation</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-icon">🎮</span>
+                    <h3>2D Java Game</h3>
+                </div>
+                <p class="project-date">Sept 2025 – Nov 2025</p>
+                <p class="project-description">
+                    Built a 2D Java game in a 4-person team using OOP principles, sprite animation, and collision detection. Implemented comprehensive unit/integration tests with JUnit and managed project with Maven.
+                </p>
+                <div class="tech-stack">
+                    <span>Java</span>
+                    <span>OOP</span>
+                    <span>JUnit</span>
+                    <span>Maven</span>
+                </div>
+            </div>
+
+           
+
+          
+
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-icon">⏰</span>
+                    <h3>Reaction Timer Game</h3>
+                </div>
+                <p class="project-date">Sept 2025 – Oct 2025</p>
+                <p class="project-description">
+                    Developed an embedded reaction timer game in C for BeagleYAI with hardware-level LED and joystick control. Implemented millisecond-level precision timing and modular HAL design.
+                </p>
+                <div class="tech-stack">
+                    <span>C</span>
+                    <span>BeagleYAI</span>
+                    <span>HAL</span>
+                    <span>Embedded Systems</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-icon">⏱️</span>
+                    <h3>Digital Alarm Clock System</h3>
+                </div>
+                <p class="project-date">Sept 2024 – Dec 2024</p>
+                <p class="project-description">
+                    Designed and implemented a digital alarm clock system using VHDL with FSM for multiple modes. Utilized 7-segment displays, LEDs, and tested on FPGA for accuracy and performance.
+                </p>
+                <div class="tech-stack">
+                    <span>VHDL</span>
+                    <span>FPGA</span>
+                    <span>FSM</span>
+                    <span>Digital Design</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-icon">🌳</span>
+                    <h3>Abstract Syntax Tree & File System</h3>
+                </div>
+                <p class="project-date">May 2024 – Aug 2024</p>
+                <p class="project-description">
+                    Developed an AST and file system for a C++ language subset. Implemented tokenizer for code parsing and tree-based file system with pre/in/post-order traversal.
+                </p>
+                <div class="tech-stack">
+                    <span>C++</span>
+                    <span>Data Structures</span>
+                    <span>Algorithms</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-icon">🔌</span>
+                    <h3>PCB Soldering Project</h3>
+                </div>
+                <p class="project-date">Sept 2023 – Dec 2023</p>
+                <p class="project-description">
+                    Built a simple circuit demonstrating soldering skills in engineering science class. Applied theoretical knowledge in practical project, enhancing electronic assembly skills.
+                </p>
+                <div class="tech-stack">
+                    <span>Electronics</span>
+                    <span>PCB</span>
+                    <span>Soldering</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-icon">🛡️</span>
+                    <h3>Cyber Safety Website</h3>
+                </div>
+                <p class="project-date">Nov 2020 – Dec 2020</p>
+                <p class="project-description">
+                    Built a website using HTML and CSS as a school project to educate on cyber safety. Developed informative content and ensured accessibility across devices.
+                </p>
+                <div class="tech-stack">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Web Design</span>
+                </div>
+            </div>
+
+            
+
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-icon">🛒</span>
+                    <h3>CartQuest – Gamified Grocery Shopping</h3>
+                </div>
+                <p class="project-date">Recent Project</p>
+                <p class="project-description">
+                    Built an interactive, gamified grocery shopping web app using HTML, CSS, and JavaScript with animated UI elements including glowing buttons and dynamic backgrounds. Implemented cuisine-to-dish selection and drag-and-drop interactions to simulate shopping.
+                </p>
+                <div class="tech-stack">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>Drag & Drop</span>
+                    <span>CSS Animations</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="section-header">
+            <h2>Education & Achievements</h2>
+            <div class="header-line"></div>
+        </div>
+        <div class="education-container">
+            <div class="education-main">
+                <div class="education-card active">
+                    <div class="edu-header">
+                        <h3>Bachelor of Applied Science - Engineering</h3>
+                        <p class="edu-school">Simon Fraser University</p>
+                        <span class="edu-date">Sep 2023 – Dec 2027 (Expected)</span>
+                    </div>
+                    <div class="edu-details">
+                        <p><strong>Location:</strong> Burnaby, BC</p>
+                        <p><strong>Role:</strong> Software Developer – SFU Robot Soccer Club</p>
+                        <p><strong>Leadership:</strong> Dir of External Relations - Women in Engineering Club</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="achievements">
+                <h3>🏆 Key Achievements</h3>
+                <div class="achievement-list">
+                    <div class="achievement-item">
+                        <span class="achievement-icon">⭐</span>
+                        <div>
+                            <h4>BC Provincial Excellence Award</h4>
+                            <p>Nov 2023 – Awarded for exceptional community service and academic achievement</p>
+                        </div>
+                    </div>
+                    <div class="achievement-item">
+                        <span class="achievement-icon">🎖️</span>
+                        <div>
+                            <h4>Greensides Royal Canadian Legion Scholarship</h4>
+                            <p>Jun 2023 – Recognized for outstanding academic performance and leadership</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="extracurricular">
+                <h3>🌟 Extracurricular & Volunteering</h3>
+                <div class="extracurricular-list">
+                    <div class="extracurricular-item">
+                        <h4>Women in Engineering Club – Dir of External Relations</h4>
+                        <p>Jan 2024 – Present | SFU</p>
+                        <p class="small-text">Designed promotional materials and organized networking events for women in engineering</p>
+                    </div>
+                    <div class="extracurricular-item">
+                        <h4>SFU Events Volunteer</h4>
+                        <p>Sept 2023 – Present</p>
+                        <p class="small-text">Volunteered at OpFair 2024 and ESSS Engineering Competition</p>
+                    </div>
+                    <div class="extracurricular-item">
+                        <h4>Math Peer Tutor</h4>
+                        <p>Sept 2022 – Jun 2023</p>
+                        <p class="small-text">Tutored students in grades 8-12 and language/cultural programs</p>
+                    </div>
+                    <div class="extracurricular-item">
+                        <h4>City of Surrey Volunteer</h4>
+                        <p>Jul 2022 – Aug 2023</p>
+                        <p class="small-text">Supported community development through Partner in Parks and community kitchen initiatives</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-header">
+            <h2>Let's Connect!</h2>
+            <div class="header-line"></div>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Get In Touch</h3>
+                <p>I'm always interested in new projects, collaborations, and opportunities. Feel free to reach out!</p>
+                <div class="contact-links-group">
+                    <a href="mailto:your.email@example.com" class="contact-link">
+                        <span class="link-icon">✉️</span>
+                        <span>Email Me</span>
+                    </a>
+                    <a href="https://github.com" target="_blank" class="contact-link">
+                        <span class="link-icon">💻</span>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" class="contact-link">
+                        <span class="link-icon">🔗</span>
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+            </div>
+
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required>
+                    <div class="input-glow"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" required>
+                    <div class="input-glow"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <div class="input-glow"></div>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Ira Batra. All rights reserved.</p>
+            <p>Built with passion, designed with love, powered by code. ✨</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" onclick="scrollToTop()">↑</button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
